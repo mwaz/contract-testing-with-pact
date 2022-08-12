@@ -1,4 +1,4 @@
-# Contract  Testing with Pact
+# Contract Testing with Pact
 
 ## 1. Clone repo
 

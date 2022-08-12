@@ -2,7 +2,7 @@ version: '2.1'
 orbs:
   node: circleci/node@5.0.2
 jobs:
-  test:
+  pact-tests:
     executor:
       name: node/default
       tag: '18.7.0'
@@ -19,4 +19,4 @@ jobs:
 workflows:
   test_contracts:
     jobs:
-      - test
+      - pact-tests
