@@ -1,0 +1,21 @@
+{
+  "name": "tutorial-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests/consumer.spec.js && jest tests/provider.spec.js",
+    "start": "node index.js",
+    "test:consumer": "jest tests/consumer.spec.js",
+    "test:provider": "jest tests/provider.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pact-foundation/pact": "^10.0.1",
+    "axios": "^0.21.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.3"
+  }
+}

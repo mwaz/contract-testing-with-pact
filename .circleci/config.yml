@@ -1,0 +1,22 @@
+version: '2.1'
+orbs:
+  node: circleci/node@5.0.2
+jobs:
+  test:
+    executor:
+      name: node/default
+      tag: '18.7.0'
+    steps:
+      - checkout
+      - node/install-packages:
+          cache-path: ~/project/node_modules
+          override-ci-command: npm install
+      - run: sudo npm install -g npm@latest
+      - run: npm run test:consumer
+      - run: npm run test:provider
+
+
+workflows:
+  test_contracts:
+    jobs:
+      - test
