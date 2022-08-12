@@ -1,19 +1,33 @@
-# Contract-Testing
+# Contract  Testing with Pact
 
-#### 1. Clone repo and install npm packages
+## 1. Clone repo
 
 ```bash
-git clone https://github.com/Dev-Elie/Contract-Testing.git
-cd Contract-Testing
+git clone https://github.com/mwaz/contract-testing-with-pact.git
+```
+## 2. Cd into cloned repository 
+```bash
+cd contract-testing-with-pact
+```
+
+## 3. Cd into cloned repository 
+```bash
 npm install
 ```
-#### 2. Start provider
-
-`npm start`
-
-#### 3. Run tests
+## 2. Start provider
 
 ```bash
-npm run test:consumer
+npm start
+```
+
+## 3. Run tests
+
+```bash
+# Run provider tests
 npm run test:provider
+```
+
+```bash
+# Run consumer tests
+npm run test:consumer
 ```
