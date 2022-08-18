@@ -17,17 +17,17 @@ git clone https://github.com/mwaz/contract-testing-with-pact.git
 cd contract-testing-with-pact
 ```
 
-## 3. Cd into cloned repository 
+## 3. Installl dependencies 
 ```bash
 npm install
 ```
-## 2. Start provider
+## 4. Start provider
 
 ```bash
 npm start
 ```
 
-## 3. Run tests
+## 5. Run tests
 
 ```bash
 # Run provider tests
